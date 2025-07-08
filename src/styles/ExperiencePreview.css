@@ -1,0 +1,52 @@
+@import './variables.css';
+
+.experience-preview {
+  padding: 4rem 1.5rem;
+  background: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.preview-grid {
+  display: grid;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.preview-item {
+  background: var(--accent-color);
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+}
+
+.preview-sub {
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.experience-button {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  background: var(--primary-color);
+  color: var(--background-color);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.experience-button:hover {
+  background: var(--text-color);
+  color: var(--background-color);
+}

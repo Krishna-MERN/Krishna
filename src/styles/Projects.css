@@ -1,0 +1,84 @@
+@import './variables.css';
+.projects {
+  padding: 4rem 2rem;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: var(--accent-color);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background: var(--primary-color);
+  color: var(--background-color);
+}
+
+.tech-stack {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tech-item {
+  font-size: 0.8rem;
+  background: var(--background-color);
+  color: var(--text-color);
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: var(--text-color);
+  border-bottom: 1px solid currentColor;
+  transition: 0.2s;
+}
+
+.project-links a:hover {
+  color: var(--background-color);
+}
+
+.view-all {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn.outline {
+  padding: 0.6rem 1.3rem;
+  border: 2px solid var(--primary-color);
+  background: transparent;
+  color: var(--primary-color);
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn.outline:hover {
+  background: var(--primary-color);
+  color: var(--background-color);
+}

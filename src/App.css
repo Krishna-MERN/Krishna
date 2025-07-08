@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+body {
+  margin: 0;
+  font-family: var(--primary-font);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
 
 .App-logo {
   height: 40vmin;

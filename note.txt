@@ -1,0 +1,82 @@
+🧩 Core Components
+Navbar / Header
+
+Logo or Name
+
+Navigation Links (About, Projects, Contact, etc.)
+
+Theme Toggle Button (Light/Dark)
+
+Hero Section
+
+Name / Title (e.g., “Hi, I’m Krishna Kumar Shukla”)
+
+Tagline / Short intro
+
+CTA Button (View Resume / Contact / Projects)
+
+About Section
+
+Brief bio
+
+Profile photo
+
+Skills summary or timeline
+
+Skills Section
+
+List of skills (with icons or percentage bars)
+
+Could be grouped as Languages, Frameworks, Tools, etc.
+
+Projects Section
+
+Cards showcasing your best work
+
+Each project includes title, description, tech stack, and link (demo/github)
+
+Experience / Education Section (optional but professional)
+
+Job title, company, duration
+
+School name, degree, duration
+
+Testimonials / Achievements Section (optional)
+
+Quotes from peers/clients
+
+Awards, certifications
+
+Contact Section
+
+Contact form (name, email, message)
+
+Email & phone
+
+Social media links (GitHub, LinkedIn, etc.)
+
+Footer
+
+Copyright
+
+Social links
+
+Scroll-to-top (optional)
+
+🌗 Utility Components
+Theme Toggle Switch
+
+Switch between light and dark themes
+
+Button
+
+Reusable styled button component (CTA, Submit, etc.)
+
+Card
+
+Used for project showcase, skills, or testimonials
+
+Modal (optional)
+
+For viewing project details or resume
+

@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #bfa77a;  /* Gold-like */
+  --secondary-color: #2e2e2e;
+  --accent-color: #1c1c1c;
+  --text-color: #ffffff;
+  --background-color: #000000;
+   --primary-font: 'Poppins', sans-serif;
+}
+
+[data-theme='light'] {
+  --primary-color: #8a6d3b;
+  --secondary-color: #f5f5f5;
+  --accent-color: #ffffff;
+  --text-color: #000000;
+  --background-color: #ffffff;
+}
