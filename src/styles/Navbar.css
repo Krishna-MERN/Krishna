@@ -12,7 +12,9 @@
   z-index: 1000;
   border-bottom: 1px --primary-color;
 }
-
+.navbar a{
+  text-decoration: none;
+}
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
