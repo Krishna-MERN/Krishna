@@ -9,14 +9,14 @@ function ExperiencePreview() {
 
       <div className="preview-grid">
         <div className="preview-item">
-          <h3>Web Developer Intern</h3>
-          <p className="preview-sub">Tech Company • Jan 2024 – Mar 2024</p>
+          <h3>MERN Stack Trainee</h3>
+          <p className="preview-sub">Softpro India • June 2025 – July 2025</p>
           <p>Worked on frontend features using React and backend API integration with Node.js.</p>
         </div>
 
         <div className="preview-item">
-          <h3>B.Tech – Computer Science</h3>
-          <p className="preview-sub">Integral University • 2021 – Present</p>
+          <h3>B.Tech – Computer Science and Engineering</h3>
+          <p className="preview-sub">Integral University • 2022 – Present</p>
           <p>Specializing in MERN stack development, DSA, and backend technologies.</p>
         </div>
       </div>

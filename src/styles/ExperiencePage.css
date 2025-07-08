@@ -25,7 +25,8 @@
   background: var(--accent-color);
   padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+   box-shadow: 0 4px 14px rgba(134, 94, 14, 0.527);
+ 
 }
 
 .timeline-item h3 {

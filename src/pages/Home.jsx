@@ -14,10 +14,10 @@ function Home({ theme, toggleTheme })
     <>
       <Hero />
       <About />
+       <ExperiencePreview />
       <Skills />
       {/* <Testimonials/> */}
       <ProjectsPreview />
-      <ExperiencePreview />
       <CertificationsSlider />
       <Contact />
       

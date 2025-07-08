@@ -45,7 +45,8 @@
   font-size: 1rem;
   color: var(--text-color);
   transition: 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 4px 14px rgba(134, 94, 14, 0.527);
+ 
 }
 
 .skill-card:hover {

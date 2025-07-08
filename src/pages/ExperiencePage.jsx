@@ -8,22 +8,40 @@ function ExperiencePage() {
 
       <div className="timeline-section">
         <div className="timeline-item">
-          <h3>Web Developer Intern</h3>
-          <p className="timeline-sub">XYZ Tech Solutions</p>
-          <span>Jan 2024 – Mar 2024</span>
+          <h3>MERN Stack Trainee</h3>
+          <p className="timeline-sub">Softpro India </p>
+          <span>June 2025 – july 2025</span>
           <p>Built responsive React components, REST API integrations, and improved UI performance.</p>
         </div>
 
         <div className="timeline-item">
-          <h3>Backend Developer Intern</h3>
-          <p className="timeline-sub">AlphaTech</p>
-          <span>May 2023 – Aug 2023</span>
+          <h3>Full stack java Developer Intern</h3>
+          <p className="timeline-sub">Plasmid Innovation</p>
+          <span>Oct 2024 - Dec 2024</span>
           <p>Developed scalable APIs in Node.js and integrated MongoDB for dynamic dashboards.</p>
         </div>
 
         <div className="timeline-item">
-          <h3>B.Tech – Computer Science</h3>
+          <h3>Research Intern</h3>
+          <p className="timeline-sub">Integral University Robotices Lab</p>
+          <span>Oct 2025 – Jan 2025</span>
+          <p>Focused on data structures, MERN stack, and backend architecture design.</p>
+        </div>
+        <div className="timeline-item">
+          <h3>B.Tech (Computer Science and Engineering )</h3>
           <p className="timeline-sub">Integral University</p>
+          <span>July 2022 – June 2026 (expected)</span>
+          <p>Focused on data structures, MERN stack, and backend architecture design.</p>
+        </div>
+        <div className="timeline-item">
+          <h3>Intermediate</h3>
+          <p className="timeline-sub">R V P I C Pithla Ayodhya</p>
+          <span>2021 – Present</span>
+          <p>Focused on data structures, MERN stack, and backend architecture design.</p>
+        </div>
+        <div className="timeline-item">
+          <h3>High School</h3>
+          <p className="timeline-sub">R VP I C Pithla Ayodhya</p>
           <span>2021 – Present</span>
           <p>Focused on data structures, MERN stack, and backend architecture design.</p>
         </div>
