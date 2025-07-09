@@ -21,7 +21,9 @@
   color: var(--primary-color);
 
 }
-
+.logo img{
+  max-height: 35px;
+}
 .logo a{
   text-decoration: none;
 }

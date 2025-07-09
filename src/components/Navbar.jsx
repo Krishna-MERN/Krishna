@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
-
+import logo from "./images/logo.png";
 function Navbar({ theme, toggleTheme }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className="navbar">
-     <a href="./"><div className="logo">Krishna.</div></a> 
+     <a href="./"><div className="logo"><img src={logo} alt="" /> Krishna.</div></a> 
 
       <div
         className={`hamburger ${menuOpen ? "open" : ""}`}
