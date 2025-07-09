@@ -11,13 +11,16 @@ function ExperiencePreview() {
         <div className="preview-item">
           <h3>MERN Stack Trainee</h3>
           <p className="preview-sub">Softpro India • June 2025 – July 2025</p>
-          <p>Worked on frontend features using React and backend API integration with Node.js.</p>
+        <ul>
+          <li>Developed and maintained Java-based applications using Core Java, Spring, and Hibernate frameworks.</li>
+          <li>Designed and implemented backend logic, APIs, and database interactions for web applications.</li>
+        </ul>
         </div>
 
         <div className="preview-item">
           <h3>B.Tech – Computer Science and Engineering</h3>
           <p className="preview-sub">Integral University • 2022 – Present</p>
-          <p>Specializing in MERN stack development, DSA, and backend technologies.</p>
+          <p>Pursuing Bachelor of Technology (B.Tech) in Computer Science and Engineering from Integral University Lucknow, with a focus on building strong technical and problem-solving skills.</p>
         </div>
       </div>
 
