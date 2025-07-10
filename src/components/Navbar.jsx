@@ -27,7 +27,7 @@ function Navbar({ theme, toggleTheme }) {
         <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
         <li>
           <button onClick={toggleTheme} className="theme-toggle">
-            {theme === "dark" ? "☀️" : "🌙"}
+            {theme === "dark" ? <i class="fa-solid fa-sun"></i> : <i class="fa-solid fa-moon"></i>}
           </button>
         </li>
       </ul>

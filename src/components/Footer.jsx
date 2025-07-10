@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Footer.css";
-
 function Footer() {
   return (
     <footer className="footer">
@@ -31,18 +30,20 @@ function Footer() {
         {/* 3. Contact Info */}
         <div className="footer-contact">
           <h4>Contact Info</h4>
-          <p>Email: <a href="mail.kkshukla@gmail.com">mail.kkshukla@gmail.com</a></p>
-          <p>Email: <a href="">+91 7985687221</a></p>
-          <p>Location: Lucknow, India</p>
+          <p><i class="fa-solid fa-envelope" > </i><a href=" mail.kkshukla@gmail.com">mail.kkshukla@gmail.com</a></p>
+          <p><i class="fa-solid fa-phone-volume" > </i><a href=""> +91 7985687221</a></p>
+          <p><i class="fa-solid fa-map-location-dot" > </i> Lucknow, India</p>
         </div>
 
         {/* 4. Social Links */}
         <div className="footer-social">
           <h4>Follow Me</h4>
           <div className="social-icons">
-            <a href="mail.kkshukla@gmail.com" title="Email" target="_blank" rel="noreferrer">📧</a>
-            <a href="https://github.com/Krishna-MERN" title="GitHub" target="_blank" rel="noreferrer">🐱</a>
-            <a href="https://linkedin.com/in/your-profile" title="LinkedIn" target="_blank" rel="noreferrer">💼</a>
+            <a href="mail.kkshukla@gmail.com" title="Email" target="_blank" rel="noreferrer"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/Krishna-MERN" title="GitHub" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/krishna-kumar-shukla/" title="LinkedIn" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/krishna-kumar-/" title="LinkedIn" target="_blank" rel="noreferrer"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/krishna-kumar-/" title="LinkedIn" target="_blank" rel="noreferrer"><i class="fa-brands fa-square-x-twitter"></i></a>
           </div>
         </div>
 
