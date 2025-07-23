@@ -30,8 +30,8 @@ function Footer() {
         {/* 3. Contact Info */}
         <div className="footer-contact">
           <h4>Contact Info</h4>
-          <p><i class="fa-solid fa-envelope" > </i><a href=" mail.kkshukla@gmail.com">mail.kkshukla@gmail.com</a></p>
-          <p><i class="fa-solid fa-phone-volume" > </i><a href=""> +91 7985687221</a></p>
+          <p><i class="fa-solid fa-envelope" > </i><a href=" mail.kkshukla@gmail.com"> mail.kkshukla@gmail.com</a></p>
+          <p><i class="fa-solid fa-phone-volume" > </i> <a href=""> +91 7985687221</a></p>
           <p><i class="fa-solid fa-map-location-dot" > </i> Lucknow, India</p>
         </div>
 

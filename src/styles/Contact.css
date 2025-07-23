@@ -6,7 +6,11 @@
   color: var(--text-color);
   text-align: center;
 }
-
+.ul{
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
 .section-title {
   font-size: 2rem;
   margin-bottom: 0.5rem;
@@ -28,9 +32,10 @@
 
 .contact-form input,
 .contact-form textarea {
+  border: none; /* Removes all borders */
+  border-bottom: 2px solid var(--primary-color); /* Adds a bottom border */
+  outline: none; /* Removes the default focus outline */
   padding: 0.9rem 1.1rem;
-  border: 1px solid var(--primary-color);
-  border-radius: 8px;
   font-size: 1rem;
   background: var(--accent-color);
   color: var(--text-color);

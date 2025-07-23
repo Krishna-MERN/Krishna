@@ -23,8 +23,8 @@ function Navbar({ theme, toggleTheme }) {
         <li><Link to="/AboutUs">About Us</Link></li>
         <li><Link to="/projects">Projects</Link></li>
         <li><Link to="/experience">Experience</Link></li>
-        <li> <a href="https://drive.google.com/file/d/1HF3w0ejOinJphofPL8JCjHPZWMWuaPhl/view?usp=drive_link" download className="nav-resume">Resume</a></li>
-        <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
+        <li> <a href="https://drive.google.com/file/d/1S0-1gIZmIVlpWDsuw8L4b5Bsr0qyeSBO/view" download className="nav-resume">Resume</a></li>
+        <li><Link to="/Contact">Contact</Link></li>
         <li>
           <button onClick={toggleTheme} className="theme-toggle">
             {theme === "dark" ? <i class="fa-solid fa-sun"></i> : <i class="fa-solid fa-moon"></i>}

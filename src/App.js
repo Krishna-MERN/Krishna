@@ -9,6 +9,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import Contact from "./components/Contact";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -21,12 +22,14 @@ function App() {
 
   return (
     <Router>
+    
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Routes>
     <Route path="/" element={<Home theme={theme} toggleTheme={toggleTheme} />} />
      <Route path="/projects" element={<ProjectsPage />} />
      <Route path="/experience" element={<ExperiencePage />} />
      <Route path="/AboutUs" element={<AboutUs />} />
+     <Route path="/Contact" element={<Contact/>}/>
       </Routes>
       <Footer/>
       <ScrollToTopButton />
