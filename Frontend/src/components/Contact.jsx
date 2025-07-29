@@ -20,7 +20,7 @@ function handleInput(e){
 
 function handleSubmit(e){
 e.preventDefault();
-axios.post("http://localhost:3000/api/contact",contact)
+axios.post("https://kkshukla.vercel.app/Contact/api/contact",contact)
 .then(res=>{
     setMessage("Message Send Succesfully");
 })
