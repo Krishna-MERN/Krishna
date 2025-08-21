@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
 import logo from "./images/logo.png";
+import Resume from "../components/images/Resume.pdf";
 function Navbar({ theme, toggleTheme }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -23,7 +24,7 @@ function Navbar({ theme, toggleTheme }) {
         <li><Link to="/AboutUs">About Us</Link></li>
         <li><Link to="/projects">Projects</Link></li>
         <li><Link to="/experience">Experience</Link></li>
-        <li> <a href="https://drive.google.com/file/d/1S0-1gIZmIVlpWDsuw8L4b5Bsr0qyeSBO/view" download className="nav-resume">Resume</a></li>
+        <li> <a href={Resume} className="nav-resume" target="_blank">Resume</a></li>
         <li><Link to="/Contact">Contact</Link></li>
         <li>
           <button onClick={toggleTheme} className="theme-toggle">

@@ -10,7 +10,7 @@ function ExperiencePage() {
         <div className="timeline-item">
           <h3>MERN Stack Trainee</h3>
           <p className="timeline-sub">Softpro India </p>
-          <span>June 2025 – july 2025</span>
+          <span>June 2025 – August 2025</span>
          <ul>
           <li>Developing full-stack web applications using MongoDB, Express.js, React.js, and Node.js.</li>
           <li>Gaining hands-on experience in RESTful API development and frontend-backend integration.</li>

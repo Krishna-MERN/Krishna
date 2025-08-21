@@ -14,6 +14,8 @@ import C13 from "../components/images/13.png";
 import C14 from "../components/images/14.png";
 import C15 from "../components/images/15.png";
 import C16 from "../components/images/16.png";
+import C17 from "../components/images/17.jpg";
+import C18 from "../components/images/18.png";
 
 const certifications = [
   {
@@ -111,6 +113,18 @@ const certifications = [
     provider: "Udemy",
     date: "July 2024",
     image: C16
+  },
+  {
+    title: "MERN Stack development Internship ",
+    provider: "Softpro India",
+    date: "August 2025",
+    image: C17
+  },
+  {
+    title: "Research Internship in AI and Robotics ",
+    provider: "INTEGRAL UNIVERSITY ROBOTICS LAB",
+    date: "January 2025",
+    image: C18
   },
 ];
 

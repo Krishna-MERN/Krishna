@@ -1,7 +1,25 @@
 const projects = [
   {
+    title: "Online Job Searching Portal",
+    description: "The Job Searching Online Portal is a web-based platform connecting job seekers and employers. It allows candidates to create profiles, upload resumes, and apply for jobs, while employers can post openings and manage applications. The system simplifies recruitment with search, filtering, and secure user authentication features.",
+
+    tech: ["React", "CSS", "JavaScript","NodeJs","ExpressJs"],
+    live: "#",
+    github: "#",
+    featured: true
+  },
+  {
+    title: "Exam Prep – Client: Soft Pro India, Kapoor Thala",
+    description: "Developed a full-stack Exam Conduct Software with separate login modules for Admin and User, ensuring role-based access.Admin module allows managing examinees, examinations, sessions, results, reports , Question Banks , and other exam-related configurations.  User module enables examinees to view scheduled exams, attempt exams, access results, and track performance reports. Implemented secure authentication and authorization to protect user data and manage access rights.",
+
+    tech: ["React", "CSS", "JavaScript","NodeJs","ExpressJs"],
+    live: "#",
+    github: "#",
+    featured: true
+  },
+  {
     title: "AI chatBot (DSChat)",
-    description: "DSChat a AI Chatbot use APIs to give response in real time to assist the user. <br>*Chat history saving. <br>*Reat time communication.",
+    description: "DSChat a AI Chatbot use APIs to give response in real time to assist the user.Chat history saving.Reat time communication.",
     tech: ["React", "CSS", "JavaScript"],
     live: "#",
     github: "#",
