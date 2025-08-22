@@ -1,84 +1,67 @@
-@import './variables.css';
-.projects {
-  padding: 4rem 2rem;
-  background-color: var(--background-color);
+.projects-container {
+  padding: 20px;
+  background: var(--background-color);
+  font-family: Arial, sans-serif;
+}
+
+.projects-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
   color: var(--text-color);
 }
 
-.section-title {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: var(--primary-color);
-}
-
-.project-grid {
+.projects-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem;
-  max-width: 1000px;
-  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
 }
 
 .project-card {
-  background: var(--accent-color);
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 14px rgba(134, 94, 14, 0.687);
-  transition: 0.3s;
+  background: var(--background-color);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  background: var(--primary-color);
-  color: var(--background-color);
+  transform: scale(1.02);
 }
 
-.tech-stack {
-  margin-top: 0.8rem;
+.project-title {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.project-desc {
+  font-size: 1rem;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.project-points {
+  margin: 10px 0;
+  padding-left: 20px;
+  color: var(--text-color);
+}
+
+.project-tech {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: var(--primary-color);
+}
+
+.project-screenshots {
+  margin-top: 15px;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
+  gap: 10px;
 }
 
-.tech-item {
-  font-size: 0.8rem;
-  background: var(--background-color);
-  color: var(--text-color);
-  padding: 4px 8px;
+.project-screenshots img {
+  width: calc(50% - 10px);
   border-radius: 6px;
-}
-
-.project-links a {
-  display: inline-block;
-  margin-right: 1rem;
-  margin-top: 1rem;
-  font-weight: 600;
-  color: var(--text-color);
-  border-bottom: 1px solid currentColor;
-  transition: 0.2s;
-}
-
-.project-links a:hover {
-  color: var(--background-color);
-}
-
-.view-all {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.btn.outline {
-  padding: 0.6rem 1.3rem;
-  border: 2px solid var(--primary-color);
-  background: transparent;
-  color: var(--primary-color);
-  border-radius: 25px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.btn.outline:hover {
-  background: var(--primary-color);
-  color: var(--background-color);
+  object-fit: cover;
 }
