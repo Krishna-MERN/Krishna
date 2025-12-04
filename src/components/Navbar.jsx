@@ -8,7 +8,7 @@ function Navbar({ theme, toggleTheme }) {
 
   return (
     <nav className="navbar">
-     <a href="./"><div className="logo"><img src={logo} alt="" /> Krishna.</div></a> 
+     <a href="./"><div className="logo"><img src={logo} alt="" /> Krishna</div></a> 
 
       <div
         className={`hamburger ${menuOpen ? "open" : ""}`}

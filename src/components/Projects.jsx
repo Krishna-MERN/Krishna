@@ -14,9 +14,9 @@ const projects = [
       "Automated Seat Availability: The system automatically updates booked and available seats.",
       "Secure Authentication: User login and admin access with secure session handling.",
     ],
-    images: [],
-    github: "https://github.com/yourusername/bus-scheduler",
-    live: "https://bus-scheduler.vercel.app",
+    images: ["src\components\images\examprep1.png"],
+    github: "https://github.com/Krishna-MERN/",
+    live: "https://examprep.vrcel.app",
   },
   {
     title: "ExamPrep – Online Test & Learning Platform",
@@ -30,9 +30,11 @@ const projects = [
       "Question Bank Management: Add, update, and categorize questions by difficulty and subject.",
       "Real-Time Result Evaluation: Automatic scoring system provides instant feedback.",
     ],
-    images: ["/images/att1.png", "/images/att2.png"],
-    github: "https://github.com/yourusername/attendance-system",
-    live: "https://attendance-system.vercel.app",
+    images: ["src\components\images\examprep1.png", 
+      "src\components\images\examprep2.png",
+      "src\components\images\examprep3.png"],
+    github: "https://github.com/Krishna-MERN/ExamPrep1",
+    live: "https://examprep1.vercel.app",
   },
 ];
 
